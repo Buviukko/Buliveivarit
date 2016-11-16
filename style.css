@@ -1,6 +1,16 @@
 body {
     
 }
+div {
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    //background-color: red;
+    padding-top: 15px;
+    cursor: pointer;
+    border: 1px solid;
+    margin: 5px;
+}
 footer {
     
 }
