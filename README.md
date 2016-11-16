@@ -1,5 +1,5 @@
 # Buliveivarit
-Muutama repo usko jo!
+Muutama rivi koodia usko jo!
 
 ========= TODO ==========
 
