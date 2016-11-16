@@ -29,3 +29,7 @@ footer {
     width: 200px;
     height: 200px;
 }
+
+#main div:hover {
+    background-color: aqua;
+}
