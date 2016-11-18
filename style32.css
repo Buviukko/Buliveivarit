@@ -1,0 +1,247 @@
+body {
+    background-image: url(tausta.gif);
+    background-size: 1700px;
+    background-repeat: no-repeat;
+}
+
+footer {
+    
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #c3c3c3;
+
+}
+
+#main div {
+    width: 200px;
+    height: 200px;
+}
+
+#main div:hover {
+    background-color: aqua;
+}
+
+.content {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    height: 98px;
+    width: 98px;
+    border: solid 1px;
+}
+
+.l1 {
+    top: 400px;
+    left: 470px;
+    width: 100px;
+	height: 100px;
+}
+.l2 {
+    position: absolute;
+    top: 640px;
+    left: 1190px;
+    width: 100px;
+	height: 100px;
+}
+.l3 {
+    position: absolute;
+    top: 234px;
+    left: 380px;
+    width: 100px;
+	height: 100px;
+}
+.l4 {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 100px;
+	height: 100px;
+}
+.l5 {
+    position: absolute;
+    top: 805px;
+    left: 640px;
+    width: 100px;
+	height: 100px;
+}.l6 {
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+    width: 100px;
+	height: 100px;
+}.l7 {
+    position: absolute;
+    top: 150px;
+    left: 670px;
+    width: 100px;
+	height: 100px;
+}.l8 {
+    position: absolute;
+    top: 278px;
+    left: 898px;
+    width: 100px;
+	height: 100px;
+}
+.l9 {
+    position: absolute;
+    top: 595px;
+    left: 215px;
+    width: 100px;
+	height: 100px;
+}
+.l10 {
+    position: absolute;
+    top: 660px;
+    left: 699px;
+    width: 100px;
+	height: 100px;
+}
+.l11 {
+    position: absolute;
+    top: 823px;
+    left: 1400px;
+    width: 100px;
+	height: 100px;
+}
+.l12 {
+    position: absolute;
+    top: 480px;
+    left: 1370px;
+    width: 100px;
+	height: 100px;
+}
+.l13 {
+    position: absolute;
+    top: 818px;
+    left: 276px;
+    width: 100px;
+	height: 100px;
+}
+.l14 {
+    position: absolute;
+    top: 650px;
+    left: 1500px;
+    width: 100px;
+	height: 100px;
+}
+.l15 {
+    position: absolute;
+    top: 400px;
+    left: 169px;
+    width: 100px;
+	height: 100px;
+}
+.l16 {
+    position: absolute;
+    top: 222px;
+    left: 1500px;
+    width: 100px;
+	height: 100px;
+}
+.l17 {
+    position: absolute;
+    top: 740px;
+    left: 69px;
+    width: 100px;
+	height: 100px;
+}
+.l18 {
+    position: absolute;
+    top: 50px;
+    left: 1400px;
+    width: 100px;
+	height: 100px;
+}
+.l19 {
+    position: absolute;
+    top: 622px;
+    left: 490px;
+    width: 100px;
+	height: 100px;
+}
+.l20 {
+    position: absolute;
+    top: 440px;
+    left: 720px;
+    width: 100px;
+	height: 100px;
+}
+.l21 {
+    position: absolute;
+    top: 800px;
+    left: 1000px;
+    width: 100px;
+	height: 100px;
+}
+.l22 {
+    position: absolute;
+    top: 100px;
+    left: 1100px;
+    width: 100px;
+	height: 100px;
+}
+.l23 {
+    position: absolute;
+    top: 50px;
+    left: 280px;
+    width: 100px;
+	height: 100px;
+}
+.l24 {
+    position: absolute;
+    top: 470px;
+    left: 955px;
+    height: 155px;
+    width: 200px;
+}
+
+
+
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(-100deg);
+	}
+
+.flip-container, .front, .back {
+    position: absolute;
+    cursor: url(cursor.cur), auto;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+    transform-origin: left;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+    background-color: aqua;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    background-color: antiquewhite;
+	transform: rotateY(180deg);
+}
