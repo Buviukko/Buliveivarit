@@ -1,5 +1,7 @@
 body {
-    
+    background-image: url(tausta.gif);
+    background-size: 1700px;
+    background-repeat: no-repeat;
 }
 div {
     width: 50px;
