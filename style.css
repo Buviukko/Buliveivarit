@@ -4,37 +4,120 @@ body {
     background-repeat: no-repeat;
 }
 div {
-    width: 50px;
-    height: 35px;
+    width: 150px;
+    height: 105px;
     text-align: center;
     //background-color: red;
     padding-top: 15px;
     cursor: pointer;
     border: 1px solid;
     margin: 5px;
+    font-size: 26px;
 }
 footer {
     
 }
 
-#main {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #c3c3c3;
-
-}
-
-#main div {
-    width: 200px;
-    height: 200px;
-}
-
-#main div:hover {
+ div:hover {
     background-color: aqua;
 }
 
 #l1 {
-    position: relative;
+    position: absolute;
     top: 400px;
-    left: 534px;
+    left: 470px;
+}#l2 {
+    position: absolute;
+    top: 640px;
+    left: 1190px;
+}#l3 {
+    position: absolute;
+    top: 234px;
+    left: 380px;
+}#l4 {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}#l5 {
+    position: absolute;
+    top: 805px;
+    left: 640px;
+}#l6 {
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+}#l7 {
+    position: absolute;
+    top: 150px;
+    left: 670px;
+}#l8 {
+    position: absolute;
+    top: 278px;
+    left: 898px;
+}#l9 {
+    position: absolute;
+    top: 595px;
+    left: 215px;
+}#l10 {
+    position: absolute;
+    top: 660px;
+    left: 699px;
+}#l11 {
+    position: absolute;
+    top: 823px;
+    left: 1400px;
+}#l12 {
+    position: absolute;
+    top: 480px;
+    left: 1370px;
+}#l13 {
+    position: absolute;
+    top: 818px;
+    left: 276px;
+}#l14 {
+    position: absolute;
+    top: 650px;
+    left: 1500px;
+}#l15 {
+    position: absolute;
+    top: 400px;
+    left: 169px;
+}#l16 {
+    position: absolute;
+    top: 222px;
+    left: 1500px;
+}#l17 {
+    position: absolute;
+    top: 740px;
+    left: 69px;
+}#l18 {
+    position: absolute;
+    top: 50px;
+    left: 1400px;
+}#l19 {
+    position: absolute;
+    top: 622px;
+    left: 490px;
+}#l20 {
+    position: absolute;
+    top: 440px;
+    left: 720px;
+}#l21 {
+    position: absolute;
+    top: 800px;
+    left: 1000px;
+}#l22 {
+    position: absolute;
+    top: 100px;
+    left: 1100px;
+}#l23 {
+    position: absolute;
+    top: 50px;
+    left: 280px;
+}#l24 {
+    position: absolute;
+    top: 470px;
+    left: 955px;
+    height: 155px;
+    width: 200px;
 }
