@@ -1,14 +1,12 @@
-// Tyhjä
-
-function setCookie(cname,cvalue,exdays) {
+function setCookie(lk,lv,exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     var expires = "expires=" + d.toGMTString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    document.cookie = lk + "="+ lv + expires + ";path=/";
 }
 
-function getCookie(cname) {
-    var name = cname + "=";
+function getCookie(lname) {
+    var name = lname + "=";
     var ca = document.cookie.split(';');
     for(var i = 0; i < ca.length; i++) {
         var c = ca[i];
@@ -23,27 +21,19 @@ function getCookie(cname) {
 }
 
 function checkCookie() {
-    var user=getCookie("username");
-    if (user != "") {
-        alert("Welcome again " + user);
+    var lk=getCookie("username");
+    if (lk != "") {
+        var b = lk.split(',');
+        alert(b[20]);
     } else {
-       user = prompt("Please enter your name:","");
-       if (user != "" && user != null) {
-           setCookie("username", user, 30);
+       lk = "0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;";
+       if (lk != "" && lk != null) {
+           setCookie("username", lk, 30);
        }
     }
 }
 
-function() {
-  var cards = document.querySelectorAll(".flip-container.click");
-  for ( var i  = 0, len = cards.length; i < len; i++ ) {
-    var card = cards[i];
-    clickListener( card );
-  }
-
-  function clickListener(card) {
-    card.addEventListener( "click", function() {
-      var c = this.classList;
-      c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
-    });
-  }
+function avaus(l) {
+    b[0] = l;
+    alert(b[0]);
+}
