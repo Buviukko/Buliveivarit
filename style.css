@@ -68,8 +68,8 @@ footer {
     position: absolute;
     top: 300px;
     left: 1200px;
-    width: 100px;
-	height: 100px;
+    width: 150px;
+	height: 105px;
 }.l7 {
     position: absolute;
     top: 150px;
@@ -196,7 +196,11 @@ footer {
     width: 200px;
 }
 
-
+/* video */
+iframe.flip-container.l2 {
+    left: 0;
+    top: 0px;
+}
 
 
 /* entire container, keeps perspective */

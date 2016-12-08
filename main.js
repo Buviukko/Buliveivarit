@@ -17,7 +17,7 @@ function load(l) {
         }
 }
 function avaus(l,v) {
-    if((l+1) <= d.getDate()) {
+    //if((l+1) <= d.getDate()) {
         v.classList.toggle('hover');
         if(lk[l] == 0) {
             lk[l] = 1;
@@ -25,5 +25,5 @@ function avaus(l,v) {
             lk[l] = 0;
         }
         document.cookie = lk;
-    }
+   // }
 }
